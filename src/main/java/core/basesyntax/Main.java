@@ -8,6 +8,7 @@ public class Main {
         ReadWriteList<Integer> list = new ReadWriteList<>();
 
         Writer writer = new Writer(list);
+
         Reader reader = new Reader(list);
 
         for (int i = 0; i < 5; i++) {
